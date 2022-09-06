@@ -225,6 +225,7 @@ if DEBUG_TOOLBAR_ENABLED:  # pragma: no cover
     DEBUG_TOOLBAR_CONFIG = {
         'RESULTS_CACHE_SIZE': 100,
         'OBSERVE_REQUEST_CALLBACK': lambda x: False,
+        #####
     }
 
 # Internal IP addresses allowed to see the debug toolbar
